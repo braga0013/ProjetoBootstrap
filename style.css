@@ -1,0 +1,62 @@
+/* Definindo uma paleta de cores mais clara */
+:root {
+    --cor-primaria: #6c757d; /* Cor primária clara para textos e botões */
+    --cor-secundaria: #adb5bd; /* Cor secundária para contraste */
+    --cor-botao: #99a9b8; /* Cor para botões */
+}
+
+/* Estilizando botões com a nova paleta de cores */
+.btn-primary {
+    background-color: var(--cor-botao);
+    border-color: var(--cor-botao);
+}
+
+.btn-primary:hover {
+    background-color: #5a6268; /* Escurecendo um pouco ao passar o mouse */
+    border-color: #5a6268;
+}
+
+.btn-outline-success {
+    color: var(--cor-botao);
+    border-color: var(--cor-botao);
+}
+
+.btn-outline-success:hover {
+    color: #ffffff; /* Texto branco ao passar o mouse */
+    background-color: var(--cor-botao);
+    border-color: var(--cor-botao);
+}
+
+/* Ajustando a cor de fundo dos cards para um tom mais claro */
+.card {
+    background-color: #dbe4ec; /* Fundo mais claro para os cards */
+}
+
+/* Ajustando a cor de fundo da barra de navegação para um tom mais claro */
+.navbar {
+    background-color: var(--cor-primaria); /* Cor primária clara para a barra de navegação */
+    color: #ffffff; /* Texto branco na barra de navegação */
+}
+
+/* Ajustando a cor de fundo do jumbotron para um tom mais claro */
+.jumbotron {
+    background-color: var(--cor-primaria); /* Cor primária clara para o jumbotron */
+    color: #ffffff; /* Texto branco no jumbotron */
+}
+
+/* Ajustando a cor de fundo da seção Sobre Nós para um tom mais claro */
+.section-sobre {
+    background-color: #dbe4ec; /* Fundo mais claro para a seção Sobre Nós */
+}
+
+/* Ajustando a cor de fundo do rodapé para um tom mais claro */
+footer {
+    background-color: var(--cor-primaria); /* Cor primária clara para o rodapé */
+    color: #000000; /* Texto branco no rodapé */
+}
+
+.text-limit {
+    height: 100px; /* Ajuste conforme necessário */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

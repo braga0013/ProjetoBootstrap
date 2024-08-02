@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Online</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Loja Online</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Início <span class="sr-only">(atual)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre nós</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Carrinho</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid text-center mb-5">
+        <div class="container">
+            <h1 class="display-4">Bem-vindo à Loja Online</h1>
+            <p class="lead">Aproveite nossas promoções e novidades.</p>
+            <a href="#" class="btn btn-primary btn-lg" role="button">Confira os Produtos</a>
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form class="form-inline my-2 my-lg-0">
+                    <div class="input-group w-100">
+                        <input id="filtro" class="form-control" type="search" placeholder="Buscar produtos..." aria-label="Search">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Seção de Produtos -->
+    <div class="container mt-5">
+        <div class="row">
+            <div data-nome="Óculos" class="col-md-4 mb-5">
+                <div class="card">
+                    <img src="imgs/item1.jpg" class="card-img-top" alt="Produto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Óculos</h5>
+                        <p class="card-text text-limit">Combine moda e funcionalidade com armações elegantes e lentes de alta qualidade. Disponíveis em diversos estilos para complementar seu look diário.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div data-nome="Produtos de limpeza" class="col-md-4 mb-5 ">
+                <div class="card">
+                    <img src="imgs/item2.jpg" class="card-img-top" alt="Produto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Produtos de limpeza</h5>
+                        <p class="card-text text-limit">Eficiente contra sujeiras difíceis, nosso detergente multiuso limpa superfícies de cozinha, banheiros e áreas comuns, deixando um aroma fresco e agradável.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div data-nome="Brinquedos" class="col-md-4 mb-5">
+                <div class="card">
+                    <img src="imgs/item3.jpg" class="card-img-top" alt="Produto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Brinquedos</h5>
+                        <p class="card-text text-limit">Arminha de Água: Alcance de até 10 metros, fácil de recarregar e manusear. Perfeita para brincadeiras ao ar livre e batalhas aquáticas, garantindo diversão e refresco.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div data-nome="Óculos" class="col-md-4 mb-5">
+                <div class="card">
+                    <img src="imgs/item1.jpg" class="card-img-top" alt="Produto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Óculos</h5>
+                        <p class="card-text text-limit">Combine moda e funcionalidade com armações elegantes e lentes de alta qualidade. Disponíveis em diversos estilos para complementar seu look diário.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div data-nome="Produtos de limpeza" class="col-md-4 mb-5">
+                <div class="card">
+                    <img src="imgs/item2.jpg" class="card-img-top" alt="Produto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Produtos de limpeza</h5>
+                        <p class="card-text text-limit">Eficiente contra sujeiras difíceis, nosso detergente multiuso limpa superfícies de cozinha, banheiros e áreas comuns, deixando um aroma fresco e agradável.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div data-nome="Brinquedos" class="col-md-4 mb-5">
+                <div class="card">
+                    <img src="imgs/item3.jpg" class="card-img-top" alt="Produto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Brinquedos</h5>
+                        <p class="card-text text-limit">Arminha de Água: Alcance de até 10 metros, fácil de recarregar e manusear. Perfeita para brincadeiras ao ar livre e batalhas aquáticas, garantindo diversão e refresco.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5 section-sobre">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="imgs/sobre.jpg" class="img-fluid" alt="Sobre Nós">
+            </div>
+            <div class="col-md-6">
+                <h2>Sobre Nós</h2>
+                <p>Bem-vindo à nossa loja online! Somos dedicados a fornecer produtos de alta qualidade a preços acessíveis. Nosso compromisso é com a satisfação do cliente, oferecendo uma ampla gama de produtos para atender todas as suas necessidades. Explore nossa coleção e descubra ofertas incríveis e novidades. Estamos aqui para tornar sua experiência de compra a melhor possível.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="bg-light text-center text-lg-start mt-5">
+        <div class="text-center p-3">
+            © 2024 Loja Online. Todos os direitos reservados.
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    
+</body>
+</html>
